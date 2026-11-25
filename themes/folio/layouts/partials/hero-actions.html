@@ -1,0 +1,12 @@
+{{- /* Primary + secondary actions: CV download(s) and email.
+     Buttons say exactly what they do — no arrow glyphs appended. */ -}}
+{{- $p := . -}}
+<div class="hero__actions">
+  {{ partial "cv-buttons.html" (dict "profile" $p) }}
+  {{- with $p.contact.email }}
+  <a class="btn btn--secondary" href="mailto:{{ . }}">
+    {{ partial "icon.html" (dict "name" "mail" "class" "btn__icon") }}
+    <span>Send email</span>
+  </a>
+  {{- end }}
+</div>

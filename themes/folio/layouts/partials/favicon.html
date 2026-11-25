@@ -1,0 +1,19 @@
+{{- /* Favicon: SVG with the person's initials in the style accent colour. */}}
+{{- $p := . -}}
+{{- $style := site.Params.style | default "harbor" -}}
+{{- $accent := dict
+  "harbor" "#0E7490" "grove" "#2F6B4F" "orchid" "#B4236B"
+  "graphite" "#1F6FEB" "saffron" "#4338CA" "nocturne" "#0E1424" "bloom" "#1F4D3A"
+-}}
+{{- $color := index $accent $style | default "#0E7490" -}}
+{{- $words := split $p.name " " -}}
+{{- $initials := "" -}}
+{{- range $words -}}
+  {{- if and (lt (len $initials) 2) (gt (len .) 0) -}}
+    {{- $initials = printf "%s%s" $initials (substr . 0 1) -}}
+  {{- end -}}
+{{- end -}}
+{{- $initials = upper $initials -}}
+{{- $ink := cond (eq $style "nocturne") "#F2B544" (cond (eq $style "bloom") "#F6E3E3" "#FFFFFF") -}}
+{{- $svg := printf `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="%s"><rect width="64" height="64" rx="14" fill="%s"/><text x="32" y="42" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="-1" font-weight="800" text-anchor="middle" fill="%s">%s</text></svg>` $p.name $color $ink $initials -}}
+{{- return $svg -}}

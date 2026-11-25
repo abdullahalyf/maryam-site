@@ -1,0 +1,165 @@
+# ============================================================
+#  ALL personal content for this site lives in THIS file.
+#  Photos / CV use FIXED names in this folder (see personal/README.md):
+#    photos/profile.jpg, avatar.jpg, project-N.jpg, hobby-N.jpg, edu-N.jpg,
+#    award-N.jpg, cv.pdf, blog/<post-name>.jpg
+#  Empty value = that part of the site is hidden.
+# ============================================================
+
+name: "Maryam Aktar"
+short_name: "Maryam"
+role: "CSE student"
+now: "Second-year B.Sc. CSE student at Daffodil International University, learning C, C++ and Java, and curious about AI and web development."
+photo_alt: "Portrait of Maryam Aktar"
+location: "Natore, Rajshahi, Bangladesh"
+cv_url: ""
+
+cvs:
+  - { file: "cv.pdf", label: "Download CV" }
+
+tech_line: "C · C++ · Java. Interested in AI and web development."
+
+highlight_academics: false
+academics: []
+home_sections:
+  - none
+moments: 6
+
+highlights:                        # the photo row on the home page
+  - { photo: "hl-balcony", caption: "A balcony full of green: the kind of corner I like to have." }
+  - { photo: "hl-gloves", caption: "Gardening teaches patience." }
+  - { photo: "hl-tea", caption: "Tea gardens are high on my travel list." }
+
+about_photo: "about-marigold"
+about_photo_alt: "Marigolds in bloom"
+about_facts:
+  - { label: "Studying", value: "B.Sc. CSE, Daffodil International University" }
+  - { label: "Based in", value: "Natore, Rajshahi" }
+  - { label: "Codes in", value: "C, C++ and Java" }
+  - { label: "Interested in", value: "AI and web development" }
+  - { label: "Outside class", value: "Gardening and travelling" }
+  - { label: "Speaks", value: "Bangla, English, Hindi" }
+
+facts:
+  - "CSE, Daffodil International University"
+  - "C, C++ and Java"
+  - "Gardening and travelling"
+  - "Based in Natore"
+
+brief: "I'm a CSE student at Daffodil International University. I write C, C++ and Java for my courses, and I like gardening and travelling when I'm away from the screen."
+
+bio: |
+  I'm Maryam, a Computer Science and Engineering student at Daffodil International University, now in my second year. I'm passionate about programming, and I'm especially interested in artificial intelligence and web development.
+
+  I write C, C++ and Java for my courses, and I enjoy turning a small idea into a program that works. My goal is to keep growing as a developer and, one day, to use what I learn to make a positive impact.
+
+  Away from the keyboard I garden and I love to travel. Gardening brings me closer to nature and teaches me patience, responsibility and how to nurture life. Travelling lets me explore new places and cultures and collect memories.
+
+education:
+  - degree: "B.Sc. in Computer Science and Engineering"
+    institution: "Daffodil International University"
+    start: ""
+    end: "Present"
+    detail: "Second year. Studying programming in C, C++ and Java and the other core CSE courses."
+  - degree: "Higher Secondary Certificate"
+    institution: "Shahid Buddhijibi Govt. College, Rajshahi"
+    start: ""
+    end: "2023"
+    detail: "GPA 5.00."
+  - degree: "Secondary School Certificate"
+    institution: "Chanchkoir Nazim Uddin High School"
+    start: ""
+    end: "2021"
+    detail: "GPA 5.00."
+
+experience: []
+
+skills:
+  - group: "Programming"
+    items: ["C", "C++", "Java"]
+
+projects:
+  - title: "Digital ammeter"
+    summary: "A small current meter built as a course electronics project. A sensor sits in series with the load, a microcontroller reads its voltage and turns it into milliamps, and the reading is shown live. It was checked against a multimeter until the two agreed."
+    tech: ["Arduino", "Current sensor", "Electronics"]
+    alt: "Demo photo: a multimeter and test leads measuring the current drawn by a small circuit."
+    live: ""
+    code: ""
+    featured: true
+  - title: "Clap-controlled light"
+    summary: "Clap once and the light turns on, clap again and it turns off. A microphone module feeds the Arduino, which looks for a sharp spike in sound and switches the light through a relay. Most of the work was tuning it so talking does not trigger it."
+    tech: ["Arduino", "Sound sensor", "Relay"]
+    alt: "Demo photo: an Arduino with a microphone module on a breadboard, lighting a grid of LEDs."
+    live: ""
+    code: ""
+    featured: true
+  - title: "Student result calculator"
+    summary: "A C program that takes the marks for each subject and prints the grade, grade point, total and GPA, using the grading scale from school."
+    tech: ["C"]
+    alt: "The result calculator running in a terminal, printing marks, grades, points and a GPA of 3.85."
+    live: ""
+    code: ""
+    featured: true
+  - title: "Simple bank account"
+    summary: "A console program in Java for a course. One account with deposit, withdraw and balance check, and a refusal when a withdrawal is larger than the balance."
+    tech: ["Java"]
+    alt: "The bank account program running in a terminal, showing deposits, withdrawals and a refused withdrawal."
+    live: ""
+    code: ""
+    featured: false
+  - title: "My first web page"
+    summary: "A one-page introduction to myself in plain HTML: headings, a list of hobbies, a small table of the languages I am learning and an email link."
+    tech: ["HTML"]
+    alt: "A plain HTML page titled Hello, I am Maryam Aktar, with a hobby list and a table of programming languages."
+    live: ""
+    code: ""
+    featured: false
+
+achievements:
+  - year: ""
+    title: "Scholarship, Class 8"
+    issuer: "For academic performance"
+  - year: ""
+    title: "Scholarship, Class 10"
+    issuer: "For academic excellence"
+  - year: ""
+    title: "Award in Drawing and Art"
+    issuer: ""
+
+languages: ["Bangla", "English", "Hindi"]
+
+hobbies:
+  - title: "Gardening"
+    text: "It brings me closer to nature, and it teaches me patience, responsibility and how to nurture life."
+  - title: "Travelling"
+    text: "I like to explore new places and cultures and create memories."
+
+contact:
+  email: "maryamaktarmim@gmail.com"
+  phone: "+880 1307-395441"
+  note: "Happy to talk about study groups, programming or gardening."
+
+socials:
+  - name: "github"
+    label: "GitHub"
+    url: ""
+  - name: "linkedin"
+    label: "LinkedIn"
+    url: ""
+  - name: "facebook"
+    label: "Facebook"
+    url: "https://www.facebook.com/maryam.mim.369121"
+
+background: none
+
+contact_side:
+  photo: "contact-flowers"
+  photo_alt: "Rows of flowers in bloom"
+  title: "Good reasons to write"
+  topics:
+    - { title: "Study groups.", text: "C, C++ or Java practice before a lab or an exam." }
+    - { title: "Web and AI.", text: "Talk about what you are learning and building." }
+    - { title: "Gardening.", text: "Swap tips on easy plants for a balcony or a small yard." }
+    - { title: "Travel.", text: "Places worth seeing in Bangladesh." }
+
+open_to: ""
