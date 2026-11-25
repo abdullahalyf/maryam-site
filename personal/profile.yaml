@@ -151,18 +151,18 @@ socials:
     url: "https://www.facebook.com/maryam.mim.369121"
 
 gallery:
-  - { file: g01, caption: "" }
-  - { file: g02, caption: "" }
-  - { file: g03, caption: "" }
-  - { file: g04, caption: "" }
-  - { file: g05, caption: "" }
-  - { file: g06, caption: "" }
+  - { file: g01, caption: "Friends make campus days better." }
+  - { file: g02, caption: "Blue sky and tall palms." }
+  - { file: g03, caption: "Old walls with a lot of stories." }
+  - { file: g04, caption: "Looking up is always worth it." }
+  - { file: g05, caption: "A quiet afternoon on the grass." }
+  - { file: g06, caption: "Dressed up for a special day." }
 
 background: none
 
 contact_side:
-  photo: "contact-flowers"
-  photo_alt: "Rows of flowers in bloom"
+  photo: "contact-campus"
+  photo_alt: "Maryam Aktar standing outside a brick building on campus"
   title: "Good reasons to write"
   topics:
     - { title: "Study groups.", text: "C, C++ or Java practice before a lab or an exam." }
