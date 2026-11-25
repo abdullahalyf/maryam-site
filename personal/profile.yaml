@@ -10,7 +10,7 @@ name: "Maryam Aktar"
 short_name: "Maryam"
 role: "CSE student"
 now: "Second-year B.Sc. CSE student at Daffodil International University, learning C, C++ and Java, and curious about AI and web development."
-photo_alt: "Maryam Aktar standing outside a brick building on campus"
+photo_alt: "Maryam Aktar standing in front of a large white building on campus"
 location: "Natore, Rajshahi, Bangladesh"
 cv_url: ""
 
@@ -156,6 +156,7 @@ gallery:
   - { file: g03, caption: "" }
   - { file: g04, caption: "" }
   - { file: g05, caption: "" }
+  - { file: g06, caption: "" }
 
 background: none
 
