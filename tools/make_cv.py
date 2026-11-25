@@ -20,7 +20,7 @@ skills = "".join(f'<li><b>{e(g["group"])}:</b> {e(", ".join(g["items"]))}</li>' 
 ach = "".join(f'<li>{e(a["title"])}{" – " + e(a["issuer"]) if a.get("issuer") else ""}</li>' for a in p["achievements"])
 hob = "".join(f'<li><b>{e(h["title"])}:</b> {e(h["text"])}</li>' for h in p["hobbies"])
 c = p["contact"]
-links = [("Facebook", s["url"]) for s in p["socials"] if s.get("url") and s["name"] == "facebook"]
+links = [(s["label"], s["url"]) for s in p["socials"] if s.get("url") and s["name"] in ("github", "facebook")]
 about = e(p["bio"].strip().split("\n\n")[0])
 doc = f"""<!doctype html><html lang="en"><meta charset="utf-8"><title>{e(p['name'])} — CV</title>
 <style>

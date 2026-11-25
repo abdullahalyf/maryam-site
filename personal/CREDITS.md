@@ -2,7 +2,7 @@
 
 All stock photos are free to use under the Unsplash License
 (https://unsplash.com/license). Replace any file with your own photo using the same
-file name. The photos are stock images: they do not show Maryam or her own garden.
+file name. The stock photos below do not show Maryam or her own garden.
 
 ## Photos (`personal/photos/`)
 
@@ -13,7 +13,7 @@ file name. The photos are stock images: they do not show Maryam or her own garde
 | hl-tea.jpg, blog/sylhets-green-tea-gardens.jpg | Mosharraf Hossain (@mhphotography13), Sylhet | https://unsplash.com/photos/i3W2OJRKsL0 |
 | contact-flowers.jpg | snake v. (@pilssken) | https://unsplash.com/photos/lrQmvqmYVPw |
 | about-marigold.jpg, blog/easy-flowers-for-a-balcony.jpg | Nadiia Shuran (@feeling_hope) | https://unsplash.com/photos/C2FLN_sOqVw |
-| hobby-2.jpg, blog/coxs-bazar-a-place-i-dream-of.jpg | Fareed Akhyear Chowdhury (@fareedakhyear), Cox's Bazar | https://unsplash.com/photos/dmg7BYytpOI |
+| hobby-2.jpg, blog/coxs-bazar-a-place-i-remember.jpg | Fareed Akhyear Chowdhury (@fareedakhyear), Cox's Bazar | https://unsplash.com/photos/dmg7BYytpOI |
 | blog/bangladeshs-flowers-i-love.jpg | Md Nazmul Haque Nayeem | https://unsplash.com/photos/3WV_PxSRRrY |
 | blog/learning-c-as-a-cse-student.jpg | Daniil Komov (@dkomow) | https://unsplash.com/photos/SH6hmu0eoas |
 
@@ -25,4 +25,4 @@ file name. The photos are stock images: they do not show Maryam or her own garde
 
 ## Placeholders
 
-- profile.jpg and avatar.jpg are a plain "MA" monogram until Maryam sends her own photo.
+- profile.jpg, avatar.jpg and gallery/ are Maryam's own photos.

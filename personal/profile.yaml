@@ -10,7 +10,7 @@ name: "Maryam Aktar"
 short_name: "Maryam"
 role: "CSE student"
 now: "Second-year B.Sc. CSE student at Daffodil International University, learning C, C++ and Java, and curious about AI and web development."
-photo_alt: "Portrait of Maryam Aktar"
+photo_alt: "Maryam Aktar standing outside a brick building on campus"
 location: "Natore, Rajshahi, Bangladesh"
 cv_url: ""
 
@@ -26,9 +26,9 @@ home_sections:
 moments: 6
 
 highlights:                        # the photo row on the home page
-  - { photo: "hl-balcony", caption: "A balcony full of green: the kind of corner I like to have." }
+  - { photo: "hl-balcony", caption: "A balcony full of green." }
   - { photo: "hl-gloves", caption: "Gardening teaches patience." }
-  - { photo: "hl-tea", caption: "Tea gardens are high on my travel list." }
+  - { photo: "hl-tea", caption: "Tea gardens in the Sylhet region." }
 
 about_photo: "about-marigold"
 about_photo_alt: "Marigolds in bloom"
@@ -132,7 +132,7 @@ hobbies:
   - title: "Gardening"
     text: "It brings me closer to nature, and it teaches me patience, responsibility and how to nurture life."
   - title: "Travelling"
-    text: "I like to explore new places and cultures and create memories."
+    text: "I like to explore new places and cultures and create memories. Cox's Bazar, Sylhet and the Sundarbans are some of the places I have been to."
 
 contact:
   email: "maryamaktarmim@gmail.com"
@@ -142,13 +142,20 @@ contact:
 socials:
   - name: "github"
     label: "GitHub"
-    url: ""
+    url: "https://github.com/maryamaktarmim-hash"
   - name: "linkedin"
     label: "LinkedIn"
     url: ""
   - name: "facebook"
     label: "Facebook"
     url: "https://www.facebook.com/maryam.mim.369121"
+
+gallery:
+  - { file: g01, caption: "" }
+  - { file: g02, caption: "" }
+  - { file: g03, caption: "" }
+  - { file: g04, caption: "" }
+  - { file: g05, caption: "" }
 
 background: none
 
